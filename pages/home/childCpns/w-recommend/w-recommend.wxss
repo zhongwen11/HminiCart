@@ -1,3 +1,5 @@
+/* pages/home/childCpns/w-recommend/w-recommend.wxss */
+
 .recommend{
   display: flex;
   text-align: center;

@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "w-swiper": "/components/w-swiper/w-swiper"
+    "w-swiper": "/components/w-swiper/w-swiper",
+    "w-recommend": "./childCpns/w-recommend/w-recommend"
   },
   "navigationBarTitleText": "小栈购物街"
 }
