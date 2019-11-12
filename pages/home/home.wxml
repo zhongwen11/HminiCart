@@ -1,6 +1,12 @@
 <!--pages/home/home.wxml-->
 <!-- 首页轮播图展示 -->
-<w-swiper list="{{banners}}"/>
+<w-swiper list="{{banners}}" mode='widthFix'/>
 
 <!-- 2、首页数据推荐展示 -->
 <w-recommend recommends="{{recommends}}" />
+
+<!-- 3、本周流行推荐 -->
+<w-popular />
+
+<!-- 4、分类界面展示 -->
+<w-tab-control titles="{{titles}}" bind:tabclick="bindTabClick"/>

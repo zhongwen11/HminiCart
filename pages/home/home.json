@@ -1,7 +1,9 @@
 {
   "usingComponents": {
     "w-swiper": "/components/w-swiper/w-swiper",
-    "w-recommend": "./childCpns/w-recommend/w-recommend"
+    "w-tab-control": "/components/w-tab-control/w-tab-control",
+    "w-recommend": "./childCpns/w-recommend/w-recommend",
+    "w-popular": "./childCpns/w-popular/popular"
   },
   "navigationBarTitleText": "小栈购物街"
 }
